@@ -1,0 +1,57 @@
+body {
+    font-size: 16px;
+    margin: 20px 30px;
+}
+
+body, input {
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'Verdana', 'Tahoma', sans-serif;
+    font-size: 14px;
+}
+
+a {
+    color: #39861B;
+}
+
+h1 {
+    color: #58C02F;
+    margin: 0 0 10px 0;
+}
+
+ul.errors {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #BF2E2E;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+ul.errors li {
+    padding: 3px 6px;
+    margin: 0;
+}
+
+div.navigation {
+    background: #eee;
+    border: 1px solid #ccc;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin: 10px -10px;
+    font-size: 14px;
+}
+
+dl dt {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+ul.multiple-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}

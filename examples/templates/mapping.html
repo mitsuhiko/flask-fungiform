@@ -1,14 +1,12 @@
 {% extends "layout.html" %}
 {% block body %}
-  <h2>Register Example</h2>
+  <h2>Mapping Example</h2>
   {% call form() %}
     <dl>
-      {{ form.username.as_dd() }}
-      {{ form.password.as_dd() }}
-      {{ form.password_repeat.as_dd() }}
+      {{ form.items.as_dd(extra_rows=2) }}
     </dl>
     <p class=actions>
-      <input type=submit value=Register>
+      <input type=submit value=Validate>
   {% endcall %}
   {% if validated_data %}
     <h2>Data Valid</h2>

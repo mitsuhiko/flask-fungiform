@@ -1,0 +1,12 @@
+<!doctype html>
+<title>Flask-Fungiform Example</title>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+<h1>Flask-Fungiform Example</h1>
+<div class=navigation>
+  <strong>Examples:</strong>
+  <a href="{{ url_for('register') }}">register</a> |
+  <a href="{{ url_for('mapping') }}">mapping</a>
+</div>
+<div class=body>
+  {% block body %}{% endblock %}
+</div>
